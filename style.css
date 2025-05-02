@@ -1,0 +1,50 @@
+/* Simple Reset & Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes width/height calculations include padding/border */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* A common sans-serif font, fallback to generic */
+    background-color: #f9f9f9; /* Light grey background, similar to YouTube */
+    color: #0f0f0f; /* Dark grey text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* White background for header */
+    padding: 10px 20px; /* Some spacing inside the header */
+    border-bottom: 1px solid #ddd; /* Light grey line at the bottom */
+    height: 60px; /* Fixed height for the header */
+    /* We'll add Flexbox later to align items inside the header */
+}
+
+/* Main Content Area Layout (using Flexbox) */
+.main-container {
+    display: flex; /* Arrange children (aside, main) side-by-side */
+    margin-top: 60px; /* Push content below the fixed header */
+}
+
+/* Sidebar Styles */
+aside {
+    background-color: #ffffff; /* White background for sidebar */
+    width: 240px; /* Fixed width for the sidebar */
+    height: calc(100vh - 60px); /* Full height minus the header height */
+    padding: 15px; /* Spacing inside the sidebar */
+    /* Position could be fixed or sticky later for scrolling */
+}
+
+/* Main Content Area Styles */
+main {
+    background-color: #f9f9f9; /* Same as body background */
+    flex-grow: 1; /* Allows the main area to take up remaining space */
+    padding: 20px; /* Spacing inside the main content area */
+    /* We'll use Grid or Flexbox here later for video thumbnails */
+}
+
+/* Placeholder Styles (temporary, just to see them) */
+h1, h2 {
+    color: #606060; /* Grey color for placeholders */
+    font-weight: normal;
+}
