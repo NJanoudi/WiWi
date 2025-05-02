@@ -1,26 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset=""UTF-8">
-        <meta name=""viewport" content="width=device-width, initial-scale=1.0">
-        <title>WiWi - Local Videos</title>
-        <link rel-"stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>WiWi Header Placeholder</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiWi - Your Local Video Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-            <div class="main-container">
-                <aside class="sidebar">
-                    <h2>Sidebar Placeholder</h2>
-                </aside>
-                
-                <main>
-                    <h2>Main Video Area Placeholder</h2>
-                </main>
-            </div>>
+    <header class="site-header">
+        <div class="logo-area">
+            <span>&#9776;</span> <span class="logo-text">WiWi</span>
+        </div>
+        <div class="search-area">
+            <input type="text" placeholder="Search">
+            <button>Search</button> </div>
+        <div class="user-area">
+            <span>Icon1</span>
+            <span>Icon2</span>
+            <span>User</span>
+        </div>
+    </header>
 
-            </div>
-        </header>
-    </body>
+    <div class="main-container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <hr> {/* Separator */}
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Your Videos</a></li>
+                    <li><a href="#">Watch Later</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content-area">
+            <h2>Recommended</h2>
+            <div class="video-grid">
+                <article class="video-card">
+                    <div class="thumbnail-placeholder"></div>
+                    <div class="video-details">
+                        <h3 class="video-title">Video Title Placeholder - Lorem Ipsum Dolor Sit Amet Consectetur</h3>
+                        <div class="channel-name">Channel Name</div>
+                        <div class="video-stats">1M views • 1 week ago</div>
+                    </div>
+                </article>
+                <article class="video-card">
+                    <div class="thumbnail-placeholder"></div>
+                    <div class="video-details">
+                        <h3 class="video-title">Another Example Video Title That Might Be Quite Long</h3>
+                        <div class="channel-name">Another Channel</div>
+                        <div class="video-stats">500K views • 2 days ago</div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail-placeholder"></div>
+                    <div class="video-details">
+                        <h3 class="video-title">Short Title</h3>
+                        <div class="channel-name">Creative Videos</div>
+                        <div class="video-stats">10K views • 5 hours ago</div>
+                    </div>
+                </article>
+
+                 <article class="video-card">
+                    <div class="thumbnail-placeholder"></div>
+                    <div class="video-details">
+                        <h3 class="video-title">Practice Project Showcase: Building WiWi</h3>
+                        <div class="channel-name">My Dev Journey</div>
+                        <div class="video-stats">1 view • Just now</div>
+                    </div>
+                </article>
+                 <article class="video-card">
+                    <div class="thumbnail-placeholder"></div>
+                    <div class="video-details">
+                        <h3 class="video-title">CSS Grid is Awesome for Layouts Like This One Here</h3>
+                        <div class="channel-name">Web Dev Simplified</div>
+                        <div class="video-stats">250K views • 1 month ago</div>
+                    </div>
+                </article>
+                 <article class="video-card">
+                    <div class="thumbnail-placeholder"></div>
+                    <div class="video-details">
+                        <h3 class="video-title">Placeholder Six</h3>
+                        <div class="channel-name">Placeholder Channel</div>
+                        <div class="video-stats">999 views • 1 year ago</div>
+                    </div>
+                </article>
+                </div>
+        </main>
+    </div>
+
+</body>
 </html>
